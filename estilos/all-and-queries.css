@@ -6,7 +6,56 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#login {
-    background-color: white;
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #f0f180, rgb(239, 247, 239));
+    background-repeat: no-repeat;
 }
 
+#imagem {
+    background:black url(../imagens/pexels-daisa-tj-7092446.jpg) center center/auto no-repeat;
+}
+
+#login {
+    background-color: rgb(45, 117, 38);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+section h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+section p {
+    text-align: justify;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px 20px 25px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: rgb(255, 255, 255);
+}
+
+input.botão{
+    width: 203px;
+    background-color: rgb(163, 163, 55);
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.541)
+}
