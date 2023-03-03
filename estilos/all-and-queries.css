@@ -59,3 +59,20 @@ input.botão{
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.541)
 }
+
+@media screen and (min-width: 768px) {
+    #imagem {
+        width: 250px;
+        height: 250px;
+    }
+    
+    main {
+        margin: auto;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 860px;
+    }
+    
+}
