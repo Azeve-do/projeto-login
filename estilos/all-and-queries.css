@@ -23,7 +23,6 @@ body, html {
     border-radius: 20px;
 }
 
-
 section h1 {
     text-align: center;
     font-size: 28px;
@@ -62,17 +61,45 @@ input.botão{
 
 @media screen and (min-width: 768px) {
     #imagem {
-        width: 250px;
+        width: 800px;
+        background-position: center center;
         height: 250px;
     }
     
     main {
+        box-shadow: 1px 1px 8px black;
         margin: auto;
-        margin-top: 150px;
+        margin-top: 220px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 860px;
+        width: 796px;
+        overflow: hidden;
+        border-radius: 20px;
     }
     
+    #forms {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .botão {
+        margin-left: 300px;       
+    }
+
+    .infosconta {
+        margin-left: 140px;
+        width: 500px;
+    }
+
+    #textwelcome {
+        width: 400px;
+        text-align: center;
+        margin-left: 190px;
+    }
+
+    h1 {
+        text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+    }
+
 }
