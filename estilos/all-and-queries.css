@@ -93,12 +93,15 @@ h1 {
     }
 
     .botão {
+        border: none;
+        width: 100%;
         margin-left: 261px;       
     }
 
     .infosconta {
+        border: none;
         margin-left: 131px;
-        width: 450px;
+        width: 100%;
     }
 
     #textwelcome {
