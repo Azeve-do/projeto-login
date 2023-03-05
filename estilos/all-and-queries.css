@@ -67,21 +67,23 @@ h1 {
 
 @media screen and (min-width: 768px) {
     #imagem {
-        width: 400px;
+        width: 900px;
         background-position: center center;
-        height: 400px;
+        height: 300px;
     }
     
     #login {
         box-shadow: 1px 1px 8px black;
-        margin: auto;
-        margin-top: 220px;
+        margin-top: 170px;
+        width: 760px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 850px;
-        overflow: hidden;
-        border-radius: 20px;
     }
     
     #forms {
@@ -91,18 +93,44 @@ h1 {
     }
 
     .botão {
-        margin-left: 150px;       
+        margin-left: 261px;       
     }
 
     .infosconta {
-        margin-right: 20px;
+        margin-left: 131px;
         width: 450px;
     }
 
     #textwelcome {
         width: 400px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 160px;
     }
 
+    div > h1 {
+        margin-left: 220px;
+    }
+
+@media screen and (min-width: 1200px) {
+    #imagem {
+        height: 500px;
+        width: 50%;
+        
+    }
+
+    #login {
+        box-shadow: 1px 1px 8px black;
+        margin-top: 220px;
+        height: 550px;
+        width: 1200px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
 }
