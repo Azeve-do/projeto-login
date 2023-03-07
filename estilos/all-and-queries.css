@@ -118,7 +118,6 @@ h1 {
     #imagem {
         height: 500px;
         width: 50%;
-        
     }
 
     #login {
@@ -126,6 +125,7 @@ h1 {
         margin-top: 220px;
         height: 550px;
         width: 1200px;
+        float: right;
         overflow: hidden;
         border-radius: 20px;
     }
