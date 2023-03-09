@@ -113,27 +113,56 @@ h1 {
     div > h1 {
         margin-left: 220px;
     }
+}
 
 @media screen and (min-width: 1200px) {
     #imagem {
-        height: 500px;
-        width: 50%;
+        float: left;
+        height: 100%;
+        width: 40%;
     }
 
     #login {
         box-shadow: 1px 1px 8px black;
-        margin-top: 220px;
         height: 550px;
         width: 1200px;
-        float: right;
-        overflow: hidden;
         border-radius: 20px;
     }
     
     main {
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
+    }
+
+    #forms {
+        float: right;
+        padding: 40px;
+        width: 630px;
+    }
+
+    #forms > h1 {
+        margin: auto;
+    }
+
+    .botão {
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 190px;
+        height: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.603);
+    }
+
+    .infosconta {
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.747);
+    }
+
+    #forms > p {
+        margin: auto;
     }
 }
